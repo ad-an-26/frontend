@@ -15,12 +15,14 @@ Below are the projects I'm working on. Each project is in its own folder and inc
 | 5      | **Quiz App**           | A simple interactive quiz game application with score tracking functionality.                    | HTML, CSS, JavaScript    |
 | 6      | **Add Friend**         | A mini project focused on learning and manipulating the DOM using JavaScript.                    | HTML, CSS, JavaScript    |
 | 7      | **Music Player**       | A functional music player with essential playback features for an enhanced user experience.      | HTML, CSS, JavaScript    |
+| 8      | **Style Haven RAG chatbot**       | A smart AI chatbot for Style Haven that answers customer queries using a RAG (Retrieval-Augmented Generation) system.      | HTML, CSS, n8n    |
 
 ## 🛠️ Skills & Technologies
 
 - **HTML5**: Semantics, Forms, Media elements
 - **CSS3**: Flexbox, Grid, Animations, Responsive Design
 - **Tailwind CSS**: Utility-first framework, Responsive Design, Customization
+- **AI Agents**: n8n, lang chain, lang graph
 - **JavaScript**: DOM Manipulation, Event Handling, ES6+, Asynchronous JS
 - **Version Control**: Git
 
