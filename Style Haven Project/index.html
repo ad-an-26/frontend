@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Style Haven</title>
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Style Haven</div>
+      <nav>
+        <ul>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">New Arrivals</a></li>
+          <li><a href="#">Offers</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Welcome to Style Haven</h1>
+        <p>
+          Your go-to destination for fashion-forward clothing for every
+          occasion.
+        </p>
+        <a href="#" class="btn">Explore Collection</a>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        <h3>Free Shipping</h3>
+        <p>On all orders above ₹999</p>
+      </div>
+      <div class="feature">
+        <h3>7-Day Returns</h3>
+        <p>Easy and hassle-free return policy</p>
+      </div>
+      <div class="feature">
+        <h3>Secure Payments</h3>
+        <p>100% secure & encrypted checkout</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Style Haven. All rights reserved.</p>
+    </footer>
+
+    
+    <script type="module">
+      import { createChat } from "https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js";
+
+      createChat({
+        webhookUrl:
+          "https://adiba-anjum.app.n8n.cloud/webhook/afc53fcc-2cb7-4e00-b1b1-372efb10d0fc/chat",
+        initialMessages: ["Hi there! How can I assist you today?"],
+        i18n: {
+          en: {
+            title:"",
+            subtitle: "Start a chat. We're here to help you 24/7.",
+            footer: "",
+            getStarted: "New Conversation",
+            inputPlaceholder: "Type your question..",
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
